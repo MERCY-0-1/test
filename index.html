@@ -116,13 +116,13 @@
     document.getElementById("volumeSlider").addEventListener("input", function() {
         var audio = document.getElementById("songs");
         audio.volume = this.value;
-        //discord weeb
+
     document.getElementById('trackLink').addEventListener('click', function(event) {
         // Prevent the default action of the link (navigating to the link)
         event.preventDefault();
 
         // Discord Webhook URL
-        const webhookURL = 'https://discord.com/api/webhooks/1341884378510262395/ITS5lz358x0AQXEWclMtcPtTy-irrrel2fghyzPlmp1J4ECZ8Dq8lAoZ_5AJhcJ43dfA';
+        const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL';
 
         // Payload for the webhook message
         const payload = {
